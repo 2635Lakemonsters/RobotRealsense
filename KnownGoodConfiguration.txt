@@ -1,0 +1,6 @@
+What we did so that this godforsaken thing worked:
+
+1. Found out that the folder was inside of another folder of the same name
+2. Compute stick is connected to the wireless access point (the router thing) via a daisy chain of usb to ethernet adapters
+3. The roborio is connected to the coding computer via usb. 
+4. Ping the computstick to find the IPv4 address
