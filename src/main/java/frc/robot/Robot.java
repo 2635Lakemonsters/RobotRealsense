@@ -48,7 +48,7 @@ public class Robot extends TimedRobot {
     try{
       client = new RealsensePoseClient();
 
-      client.startConnection("10.26.35.80", 27015);
+      client.startConnection(RobotMap.REALSENSE_LISTENER_IP, 27015);
     } catch(Exception e) {
       System.out.println(e);
     }
